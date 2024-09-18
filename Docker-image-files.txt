@@ -23,7 +23,3 @@ docker push athenasoul/videocallapp-deployement:latest
 
 
 
-
-
-#  to clean the git add . part from repository 
-git rm -r --cached . -f
