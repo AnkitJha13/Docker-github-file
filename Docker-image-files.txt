@@ -4,7 +4,7 @@ first create the docker file and make it ready for the process
 step 1 - 
 set DATASOURCE_URL=jdbc:postgresql://localhost:5432/athena_ecomDb
 set DATASOURCE_USER=postgres   
-set DATASOURCE_USER=Immortalsoul@69   
+set DATASOURCE_PASSWORD=Immortalsoul@69    
 
 
 
