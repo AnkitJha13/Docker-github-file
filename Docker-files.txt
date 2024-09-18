@@ -1,0 +1,29 @@
+
+first create the docker file and make it ready for the process
+
+step 1 - 
+set DATASOURCE_URL=jdbc:postgresql://localhost:5432/athena_ecomDb
+set DATASOURCE_USER=postgres   
+set DATASOURCE_USER=Immortalsoul@69   
+
+
+
+step 2 - 
+
+
+docker build -t videocallapp-deployement . 
+
+
+
+docker tag videocallapp-deployement athenasoul/videocallapp-deployement:latest
+
+
+
+docker push athenasoul/videocallapp-deployement:latest 
+
+
+
+
+
+#  to clean the git add . part from repository 
+git rm -r --cached . -f
